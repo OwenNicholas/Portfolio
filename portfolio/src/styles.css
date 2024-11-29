@@ -1,0 +1,18 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: "rgb(239, 249, 253)";
+  }
+  nav {
+    background: #333;
+    padding: 10px;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
