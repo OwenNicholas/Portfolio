@@ -17,20 +17,20 @@ const Navbar = () => {
     <nav
     style={{
       background: "rgb(239, 249, 253)",
-      height: "60px",
+      height: "100px",
       display: "flex",
       alignItems: "center",
       padding: "0 20px",
       overflow: "hidden",
     }}
-  >
+    >
       <img
-        src="/assets/portfolio_Logo.png"
+        src="/assets/portfolioLogo.png"
         alt="Portfolio Logo"
         style={{
-          height: "100%", // Make the logo fit the height of the navbar
-          maxHeight: "50px", // Set a maximum size for the logo
-          marginRight: "680px", // Space between the logo and the links
+          height: "100%",
+          maxHeight: "90px", 
+          marginRight: "370px",
         }}
       />
       <Link
