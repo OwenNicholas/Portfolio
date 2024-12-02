@@ -11,6 +11,7 @@
     justify-content: space-between;
     width: 100%;
     max-width: 1200px;
+    margin-bottom: 120px;
   }
   
   .text-section {
@@ -84,12 +85,75 @@
     height: auto;
   }
 
-  .what-i-do {
-    margin-top: 50px;
-    text-align: center;
-  }
+  /* What I Do Section */
+.what-i-do {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+}
 
-  .what-i-do h1{
-    font-size: 2rem;
-    font-weight: bold;
-  }
+.what-i-do .title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: #001f3f; /* Dark blue */
+}
+
+/* Content Layout */
+.what-i-do-content {
+  margin-left: -10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+/* Left: Illustration Section */
+.illustration-section img {
+  width: 300px;
+  height: auto;
+  margin-right: 50px;
+  object-fit: cover; 
+}
+
+/* Right: Text Section */
+.text-section {
+  margin-top:-10px;
+  text-align: left;
+  max-width: 600px;
+}
+
+.text-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #001f3f;
+}
+
+/* Technology Icons */
+.tech-icons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.tech-icons img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+/* What I Do List */
+.what-i-do-list {
+  list-style: none;
+  padding: 0;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+.what-i-do-list li {
+  margin-bottom: 10px;
+}
