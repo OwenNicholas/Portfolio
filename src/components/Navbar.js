@@ -22,6 +22,7 @@ const Navbar = () => {
       alignItems: "center",
       padding: "0 20px",
       overflow: "hidden",
+
     }}
     >
       <img
@@ -30,7 +31,7 @@ const Navbar = () => {
         style={{
           height: "100%",
           maxHeight: "90px", 
-          marginRight: "370px",
+          marginRight: "500px",
         }}
       />
       <Link
